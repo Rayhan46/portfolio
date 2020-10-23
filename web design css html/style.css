@@ -1,0 +1,155 @@
+*{padding: 0px;
+  margin: 0px;
+}
+body{
+  font-size: 16px;
+  font-family: 'Work Sans' sans-serif;
+
+}
+
+#topbar {
+
+  background: #e8e3e3;
+}
+#container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+
+}
+#phone {
+  width: 157px;
+  float: left;
+  padding: 15px 25px;
+  border-left: 1px solid #d9b5b5de;
+  border-right: 1px solid #d9b5b5de;
+}
+#email {
+  width: 500px;
+  float: left;
+  padding: 15px 25px;
+}
+#socail {
+  width: 210px;
+  float: left;
+}  
+#heading {
+  overflow: hidden;
+} 
+#socail a {
+  display: block;
+  border-right: 1px solid black;
+  float: left;
+  padding: 15px;
+color: black;
+}
+#socail a:first-child{
+
+  border-left: 1px solid black;
+}
+.fas.fa-envelope {
+  color: #ff8707;
+}
+.fas.fa-phone {
+  color: #ff8707;
+}
+#socail a:hover {
+background: #ff0f0f;
+}
+
+
+
+
+
+
+#priamary_menu{list-style: none;}
+#priamary_menu li{float: left; position:relative;}
+#priamary_menu li a{color: #222; font-weight: bold;text-decoration: none;
+  padding: 10px; display: block; padding: 13px 30px;transition:all 1s ;}
+#priamary_menu li a:hover{background: #00374c; color: #fff;transform: scale(1.1);} 
+img{width: 100%;}
+#logodiv{
+  width: 100px;
+  float: left;
+  padding-top: 12px;
+  padding-left: 89px;
+}
+.displaySize{width: 1170px; margin: auto;}
+#mainNav{
+  width: 100%;
+  background: #f1f1f1;
+  border-bottom: 2px solid orange;
+
+  
+  display: table;
+}
+#priamary_menu li a {
+padding-top: 18px;
+}
+#menuContainer{
+  width: 727px;
+  float: left;
+  padding-left: 45px;
+}
+
+input {
+width: 170px;
+height: 28px;
+margin-left: 752px;
+margin-top: 10px;
+border: 2px solid #844444;
+}
+.fas.fa-search {
+padding: 6px;
+}
+.fas.fa-search:hover{
+background: chocolate;
+max-resolution: top 1px; ;
+}
+
+
+
+#homeSlider{
+background: url(images/background+for+website+headers.jpg);
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.sliderContent {
+  color: #fff;
+  padding-left: 303px;
+  width: 617px;
+}
+.sliderContent h1 {
+font-size: 50px;
+font-weight: 700px;
+text-transform: uppercase;
+margin-bottom: 30px;
+margin-top: 120px;
+float: left;
+}
+.sliderContent p {
+  width: 490px;
+  line-height: 25px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 19px;
+  color: #eaea00;
+}
+button {
+color: white;
+background: #ff5200;
+border: none;
+padding: 15px 25px;
+font-size: 20px;
+border-radius: 5px;
+font-weight: 600;
+margin-bottom: 120px;
+}
+button:hover{
+  background: black;
+  color: white;
+  cursor: pointer;
+}
